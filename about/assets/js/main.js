@@ -744,3 +744,9 @@ var main = (function($) { var _ = {
 	},
 
 }; return _; })(jQuery); main.init();
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-141681111-1');
